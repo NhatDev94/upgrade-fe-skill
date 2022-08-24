@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
-import { Button, Modal } from 'antd'
+import React from 'react';
+import TableHook from '../../hooks/TableHook';
+
 
 const DashBoard = () => {
-    const [isLoading, setIsLoading] = useState(false)
+
 
     return (
         <div className=''>
-            
+            <TableHook />
         </div>
     )
 }

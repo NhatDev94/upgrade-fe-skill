@@ -14,7 +14,7 @@ const Layout = () => {
             <Side />
 
             {/* Content */}
-            <div className=''>
+            <div className='p-5'>
                 <RoutesComponent />
             </div>
 

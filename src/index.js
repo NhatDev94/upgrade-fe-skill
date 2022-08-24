@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Layout from './layouts';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import './assests/styles/index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
