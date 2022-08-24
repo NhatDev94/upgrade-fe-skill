@@ -1,15 +1,17 @@
 import React from 'react';
 import RoutesComponent from '../routes';
+import Header from './header';
+import Side from './side';
 
 const Layout = () => {
 
     return (
         <div className=''>
             {/* Header */}
-            <div className=''></div>
+            <Header />
 
             {/* Side */}
-            <div className=''></div>
+            <Side />
 
             {/* Content */}
             <div className=''>
