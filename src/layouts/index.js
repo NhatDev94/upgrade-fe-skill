@@ -4,7 +4,6 @@ import Header from './header';
 import Side from './side';
 
 const Layout = () => {
-
     return (
         <div className=''>
             {/* Header */}
@@ -14,7 +13,7 @@ const Layout = () => {
             <Side />
 
             {/* Content */}
-            <div className='p-5'>
+            <div className='p-5 mt-14'>
                 <RoutesComponent />
             </div>
 

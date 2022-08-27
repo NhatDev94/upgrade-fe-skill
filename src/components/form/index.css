@@ -1,0 +1,7 @@
+.ant-form-item-row {
+    @apply flex flex-col justify-start !important;
+}
+
+.ant-form-item-label {
+    @apply w-fit;
+}

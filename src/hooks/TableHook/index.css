@@ -1,0 +1,3 @@
+.ant-table-wrapper .ant-table-thead th {
+    @apply text-blue-500 !important;
+}
